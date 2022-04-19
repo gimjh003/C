@@ -19,6 +19,7 @@ char input(){
 
 void name(char ch){
     int i;
-    for(i=0; i<5; i++)
+    for(i=0; i<5; i++){
         printf("%c\n", ch);
+    }
 }
