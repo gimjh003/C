@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define MAX 7
+#define MAX 10
 int main(){
     int arr[MAX], k, sum=0;
     double avg;
-    printf("7 integer require : ");
+    printf("%d integer require : ", MAX);
     for(k=0; k<MAX; k++){
         scanf("%d", &arr[k]);
         sum += arr[k];
