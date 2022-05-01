@@ -8,5 +8,6 @@ int main(){
     }
     tt[4] = '\0';
     printf("reversed value = %s\n", tt);
+    ss = &i; // 주소 수정 불가능
     return 0;
 }
